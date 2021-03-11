@@ -1,0 +1,289 @@
+@media (max-width: 1200px) {
+    .top__slider-images {
+        width: 100%
+    }
+    .burger__menu{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .top__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .top__text {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 auto 40px;
+    }
+
+    .top__slider-images {
+        width: 100%
+    }
+
+    .rent__title {
+        padding: 0;
+    }
+
+    .rent__subtitle {
+        font-size: 14px;
+        width: 100%;
+        padding: 0;
+        line-height: 26px;
+    }
+
+    .rent__desc {
+        margin: 0 auto 20px;
+        width: 50%;
+        line-height: 26px;
+    }
+
+    .rent__item:nth-child(1) {
+        width: 100%;
+        text-align: center;
+    }
+
+    .grid__item {
+        width: 100%;
+        padding-top: 100px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .col-4 {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .car__wash:before {
+        right: 35px;
+    }
+
+    .advantage__car:before {
+        right: 70px;
+    }
+
+    .strong__engine:before {
+        right: 115px;
+    }
+
+    .fuel:before {
+        left: 165px;
+    }
+
+    .parking:before {
+        left: 200px;
+    }
+
+    .service:before {
+        right: 35px;
+    }
+}
+
+@media (max-width: 845px) {
+    .top__links {
+        display: none;
+    }
+
+    .top__items {
+        width: 100%;
+    }
+
+    .top__item {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+    .active__menu {
+        background: #00000080;
+        display: inline-block;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 20;
+        transition: all .5s;
+    }
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        height: 100%;
+    }
+    .menu__list-link {
+        margin: 20px 0;
+        display: inline-block;
+    }
+    .burger__menu{
+        display: block;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .top__heading {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top__content {
+        width: 100%;
+    }
+
+    .top__slider {
+        width: 80%;
+    }
+
+    .top__items {
+        display: none;
+    }
+
+    .car__wash {
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .advantage__title {
+        padding: 0;
+    }
+
+    .advantage__subtitle{
+        width: 100%;
+    }
+    .advantage__item:last-child{
+        margin: 0;
+    }
+    .advantage__desc{
+        width: 100%;
+    }
+
+    .advantage__car {
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .strong__engine {
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .support {
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .support:before {
+        display: none;
+    }
+
+    .fuel {
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .fuel:before {
+        display: none;
+    }
+
+    .parking {
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .parking:before {
+        display: none;
+    }
+
+    .service {
+        margin: 0;
+        line-height: 36px;
+    }
+
+    .service:before {
+        display: none;
+    }
+
+    .car__wash:before {
+        display: none;
+    }
+
+    .advantage__car:before {
+        display: none;
+    }
+
+    .strong__engine:before {
+        display: none;
+    }
+    .col-6:first-child{
+        display: none;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .questions__form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .questions__title{
+        width: 100%;
+        text-align: center;
+    }
+    .download__application-footer{
+        display: none;
+    }
+    .nav__links{
+        font-size: 14px;
+    }
+    .phone__number{
+        font-size: 14px;
+    }
+    .inner__icon{
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 650px){
+    .advantage__item{
+        width: 50%;
+    }
+    .advantage__item:nth-child(2){
+        display: none;
+    }
+    .advantage__title{
+        margin: 0 0 10px 0;
+    }
+    .advantage__subtitle{
+        line-height: 30px;
+    }
+    .footer__nav{
+        display: none;
+    }
+    .phone__number{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+}
